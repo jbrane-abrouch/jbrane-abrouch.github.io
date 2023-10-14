@@ -6,6 +6,7 @@
     --first-color:#0e2431;
     --second-color:#6a59d1;
     --third-color:#777;
+    --forth-color:#ABA8E6;
 
     /*HOVER*/
 
@@ -432,7 +433,17 @@ header.sticky .nav-bar{
 .skills-info h4{
     margin-bottom: 20px;
 }
-
+.skl{
+    background: var(--forth-color);
+    color: #fff;
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    padding: 5px 15px;
+    margin:1px ;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: #0e1b31;
+}
 .skills-info h4 label{
     background: var(--second-color);
     color: #fff;
@@ -492,6 +503,7 @@ header.sticky .nav-bar{
 
 .bar .info span{
     font-weight: 500;
+
 }
 
 .bar .line{
